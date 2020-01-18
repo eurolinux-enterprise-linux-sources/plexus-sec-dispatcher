@@ -1,6 +1,6 @@
 Name:           plexus-sec-dispatcher
 Version:        1.4
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        Plexus Security Dispatcher Component
 
 License:        ASL 2.0
@@ -69,6 +69,9 @@ sed -i '/maven-compiler-plugin/ {
 %files javadoc -f .mfiles-javadoc
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-13
+- Mass rebuild 2013-12-27
+
 * Mon Aug 19 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.4-12
 - Migrate away from mvn-rpmbuild (#997450)
 
